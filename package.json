@@ -4,10 +4,10 @@
   "private": true,
   "description": "Slimería XL web game packaged with Capacitor",
   "scripts": {
-    "android:add": "npx cap add android --no-interactive",
+    "android:add": "npx cap add android",
     "android:copy": "npx cap copy android",
     "android:sync": "npx cap sync android",
-    "android:setup": "if [ ! -d android ]; then npx cap add android --no-interactive; else echo 'android platform already exists'; fi",
+    "android:setup": "if [ ! -d android ]; then npx cap add android; else echo 'android platform already exists'; fi",
     "android:build:debug": "cd android && ./gradlew assembleDebug"
   },
   "dependencies": {
