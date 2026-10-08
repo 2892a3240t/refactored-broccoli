@@ -38,7 +38,7 @@ jobs:
           if [ -d android ]; then
             echo "android/ already present; skipping cap add"
           else
-            npx cap add android --no-interactive
+            npx cap add android
           fi
 
       - name: Copy web assets
